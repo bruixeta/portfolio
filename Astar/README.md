@@ -31,8 +31,6 @@ Write a Python code to visualize the computed optimal path on a map, providing a
     - mapplot.py graphically represents the computed optimal path on a map.
 4. **Example File:**
     - OutputExampleCat.txt 
-5. **No map File:**
-    - It is important to note the .csv map file is NOT included in this repository. 
 
  ### Usage example
  It is important to note the .csv map file is not included in this repository.
