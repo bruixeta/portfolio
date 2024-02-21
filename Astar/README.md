@@ -34,5 +34,17 @@ Write a Python code to visualize the computed optimal path on a map, providing a
 5. **No map File:**
     - It is important to note the .csv map file is NOT included in this repository. 
 
+ ### Usage example
+ It is important to note the .csv map file is not included in this repository.
+ 
+```bash
+gcc -o ReadMap-WriteBin ReadMap-WriteBin.c -lm
+gcc -o AStar AStar.c -lm
+
+./ReadMap-WriteBin map.csv
+./AStar map.bin
+# Choose option 1 to run the assignment or choose option 2 to manually input origin and destination node ids.
+```
+
 ## Conclusion
 The AStar assignment provided valuable insights into pathfinding algorithms and their applications in navigation and route optimization. By completing these exercises, we gained practical experience in implementing and analyzing AStar algorithm, which is fundamental to various fields such as computer science, transportation, and logistics.
