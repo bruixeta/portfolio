@@ -1,5 +1,8 @@
 # Connected Graphs Exercise
 
+This exercise was completed as part of the Optimization course in the MSc for Modelling for Science and Engineering at Universitat Autònoma de Barcelona. The objective was to develop code for various tasks related to connected graphs, with a focus on understanding graph connectivity and its applications in optimization.
+
+
 ## Introduction
 Understanding connected graphs is crucial in various scientific and engineering disciplines, as it enables the modeling and analysis of interconnected systems. In this exercise, we explore algorithms for determining graph connectivity, identifying connected components, and detecting trees within a graph.
 
@@ -17,24 +20,21 @@ Develop code to determine the number of connected components in a given graph, b
 ### Ex3: Detect Trees
 Create a program that returns 1 if the given graph is a tree and 0 otherwise. This exercise extends the concepts learned in the previous exercises to identify tree structures within graphs.
 
-## Usage
-1. Clone the repository to your local machine.
-2. Navigate to the directory containing the C code files.
-3. Compile each code file using a C compiler (e.g., gcc).
-4. Run the compiled executable file with the appropriate arguments as specified in the exercise descriptions.
+## Files
 
-### Example
+1. **C Code for Exercises:** 
+   Contains the C code files for the exercises.
+   
+2. **Example Graph Files (`GraphX.txt`):** 
+   Included in the repository are example text files representing graphs. These files can be used as inputs for the exercises, providing sample data for testing and demonstration purposes.
+
+### Usage example
 ```bash
 gcc -o ex0 ex0.c
-./ex0 graph.txt
+./ex0 Graph1.txt
 ```
 
-## Example Graph Files
-Included in the repository are example text files representing graphs (`graph.txt`). These files can be used as inputs for Ex0 and other exercises requiring graph data.
-
-## Additional Notes
-- Ensure that the graph files are formatted correctly to match the expected input structure.
-- Consider exploring additional graph algorithms and optimizations beyond the scope of these exercises to deepen your understanding.
+   
 
 ## Conclusion
-The connected graphs exercise provided valuable insights into graph connectivity algorithms and their applications. By completing these exercises, you've gained practical experience in implementing and analyzing graph-related algorithms, which are fundamental to various scientific and engineering disciplines.
+The connected graphs exercise provided valuable insights into graph connectivity algorithms and their applications. By completing these exercises, we gained practical experience in implementing and analyzing graph-related algorithms, which are fundamental to various scientific and engineering disciplines.
